@@ -1,0 +1,16 @@
+background yes
+use_xft yes
+xftfont Bitstream Vera Sans Mono:size=11
+xftalpha 0.9
+update_interval 1.0
+total_run_times 0
+own_window no
+double_buffer yes
+minimum_size 100
+maximum_width 280
+alignment bottom_left
+gap_x 15
+gap_y 25
+no_buffers yes
+TEXT
+${font Bitstream Vera Sans Mono:size=11} ${alignc}${time %a %b %d %Y} ${time %k:%M:%S}
